@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir jupyter pandas numpy matplotlib
 WORKDIR /app
 
 # Copy notebook
-COPY rb.ipynb .
+COPY raml.ipynb .
 
 # Expose Jupyter port
 EXPOSE 8888
