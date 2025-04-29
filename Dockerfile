@@ -8,6 +8,7 @@ WORKDIR /app
 
 # Copy notebook
 COPY raml.ipynb .
+COPY TimeSeries_TotalSolarGen_and_Load_IT_2016.csv   TimeSeries_TotalSolarGen_and_Load_IT_2016.csv
 
 # Expose Jupyter port
 EXPOSE 8888
